@@ -1,0 +1,23 @@
+.over {
+    width: 100%;
+    height: 50vh;
+    border: 1px black solid;
+    /* padding: 50px; */
+    /* margin: 50px; */
+    /* overflow: scroll; */
+    /* background-color: rgba(200, 100, 50, .5); */
+    /* background-color: hsl(350, 50%, 50%); */
+    /* background-color: #CCCCCC */
+    /* background-image: url("panda.jpg"); */
+    /* background-image: linear-gradient(-35deg, red 20%, blue 40%, blue 60%, black 80%); */
+    background-image: radial-gradient(ellipse, red 20%, blue 60%); 
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-clip: border-box;
+}
+
+body {
+    margin: 0;
+}
